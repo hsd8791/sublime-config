@@ -1,0 +1,11 @@
+{
+	"afn_use_keybinding": true,
+	"color_scheme": "Packages/Color Scheme - Default/Cobalt.tmTheme",
+	"font_size": 11,
+	"ignored_packages":
+	[
+		"Vintage"
+	],
+	"update_check": false,
+	"word_wrap": "auto"
+}

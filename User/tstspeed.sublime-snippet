@@ -1,0 +1,18 @@
+<snippet>
+  <!-- Example: Hello, ${1:this} is a ${2:snippet}. -->
+  <content><![CDATA[
+n = 1000
+console.time('${2:label}')
+while (n > 0) {
+	${1://body}
+	n--
+}
+console.timeEnd('${3:label}')
+
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>tstspeed</tabTrigger>
+  <description>test function speed</description>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>source.js</scope>
+</snippet>

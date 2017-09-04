@@ -1,0 +1,13 @@
+<snippet>
+  <!-- Example: Hello, ${1:this} is a ${2:snippet}. -->
+  <content><![CDATA[
+const {navigation} = this.props;
+const {state, setParams} = navigation;
+const {params} = state;
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>nav_para</tabTrigger>
+  <description>get_navigation_params</description>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>source.js, meta.class.js, meta.group.braces.curly.js</scope>
+</snippet>

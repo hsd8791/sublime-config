@@ -1,0 +1,23 @@
+<snippet>
+  <!-- Example: Hello, ${1:this} is a ${2:snippet}. -->
+  <content><![CDATA[
+response:null,
+loading:false,
+editing:true,
+backAfterPost:false,// watch out
+url:'${1:url request}',
+remind:{
+	isShow:false,
+	remindMsg:'remind',
+	self_:this,
+	remindOpts:[
+	{msg:'确定',},
+	],
+},
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>hzg-remind</tabTrigger>
+  <description>hezhanggui remind config</description>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>text.html.basic, source.js.embedded.html, source.js, meta.group.braces.curly, meta.group.braces.curly, meta.group.braces.curly, constant.other.object.key.js, string.unquoted.label.js,source.vue</scope>
+</snippet>

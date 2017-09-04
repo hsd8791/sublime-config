@@ -1,0 +1,12 @@
+<snippet>
+  <!-- Example: Hello, ${1:this} is a ${2:snippet}. -->
+  <content><![CDATA[
+border: 0px solid ${1:#efeff4} ;
+border-${2:top}-width: ${3:1px};
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>b0s</tabTrigger>
+  <description>one single border</description>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>text.html.basic, source.css.embedded.html, source.css, meta.property-list.css,source.vue,source.scss</scope>
+</snippet>

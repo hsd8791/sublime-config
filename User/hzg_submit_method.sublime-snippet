@@ -1,0 +1,28 @@
+<snippet>
+  <!-- Example: Hello, ${1:this} is a ${2:snippet}. -->
+  <content><![CDATA[
+submit(){
+	var postBody = {}
+	// e.g. postBody.nickQq = this.nickQQ 
+	publicFun.post(this.url,postBody,this,()=>{
+		//success 
+		//this.response
+	})
+},
+get(){
+	publicFun.get(this.url,this,()=>{
+		console.log('res outer',this.response)
+		var data=this.response.body.data
+	// e.g.	this.acWechat=data.acWechat
+	})
+},
+edit(){
+	this.editing=true
+},
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>hzg-submit-method</tabTrigger>
+  <description>submit get and edit function</description>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>text.html.basic, source.js.embedded.html, source.js, meta.group.braces.curly, meta.group.braces.curly,source.vue</scope>
+</snippet>

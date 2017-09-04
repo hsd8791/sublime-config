@@ -1,0 +1,12 @@
+<snippet>
+  <!-- Example: Hello, ${1:this} is a ${2:snippet}. -->
+  <content><![CDATA[
+<el-button type='success' :disabled='!allValid' class='submit' v-if='editing' @click='submit'>提交</el-button>
+<el-button type='warning'  class='submit' v-if='!editing' @click='edit'>修改</el-button>
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>hzg_submit_btn</tabTrigger>
+  <description>submit button for hzg</description>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>text.html.basic, meta.tag.other.html, punctuation.definition.tag.begin.html,source.vue</scope>
+</snippet>

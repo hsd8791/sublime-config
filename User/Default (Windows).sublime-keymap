@@ -1,0 +1,69 @@
+[{
+		"keys": ["ctrl+alt+o"],
+		"command": "afn_show_filenames",
+		"context": [{
+				"key": "afn_use_keybinding",
+				"operator": "equal",
+				"operand": true
+			} //手动开启auto filename
+		]
+	}, {
+		"keys": ["ctrl+alt+e"],
+		"command": "js_format",
+		"context": [{
+			"key": "selector",
+			"operator": "equal",
+			"operand": "source.js,source.json"
+		}]
+	}, {
+		"keys": ["ctrl+shift+k"],
+		"command": "toggle_side_bar"
+	}, {
+		"keys": ["ctrl+alt+t"],
+		"command": "trimmer"
+	}, {
+		"keys": ["alt+u"],
+		"command": "move",
+		"args": {
+			"by": "characters",
+			"forward": false
+		}
+	}, {
+		"keys": ["alt+o"],
+		"command": "move",
+		"args": {
+			"by": "characters",
+			"forward": true
+		}
+	}, {
+		"keys": ["alt+i"],
+		"command": "move",
+		"args": {
+			"by": "lines",
+			"forward": false
+		}
+	}, {
+		"keys": ["alt+k"],
+		"command": "move",
+		"args": {
+			"by": "lines",
+			"forward": true
+		}
+	}, {
+		"keys": ["alt+j"],
+		"command": "move",
+		"args": {
+			"by": "words",
+			"forward": false
+		}
+	}, {
+		"keys": ["alt+l"],
+		"command": "move",
+		"args": {
+			"by": "word_ends",
+			"forward": true
+		}
+	}
+
+
+]

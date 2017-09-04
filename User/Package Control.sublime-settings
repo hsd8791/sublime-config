@@ -1,0 +1,40 @@
+{
+	"auto_upgrade": false,
+	"auto_upgrade_ignore":
+	[
+	],
+	"auto_upgrade_last_run": null,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"All Autocomplete",
+		"AutoFileName",
+		"Babel",
+		"Babel Snippets",
+		"BracketHighlighter",
+		"Can I Use",
+		"ColorPicker",
+		"Default",
+		"DocBlockr",
+		"EJS",
+		"Emmet",
+		"Emmet Css Snippets",
+		"FindKeyConflicts",
+		"IMESupport",
+		"Jade",
+		"JsFormat",
+		"Minify",
+		"Nil-Theme",
+		"Package Control",
+		"PyV8",
+		"React Development Snippets",
+		"React Templates",
+		"Sass",
+		"SCSS",
+		"SnippetMaker",
+		"SublimeCodeIntel",
+		"Trimmer"
+	]
+}

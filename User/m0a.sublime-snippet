@@ -1,0 +1,11 @@
+<snippet>
+  <!-- Example: Hello, ${1:this} is a ${2:snippet}. -->
+  <content><![CDATA[
+margin: 0 auto;
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>m0a</tabTrigger>
+  <description>align center</description>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>text.html.basic, source.css.embedded.html, source.css,source.scss, meta.property-list.css, meta.property-value.css, punctuation.terminator.rule.css</scope>
+</snippet>
